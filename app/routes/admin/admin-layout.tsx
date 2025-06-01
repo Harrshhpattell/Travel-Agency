@@ -4,7 +4,7 @@ const AdminLayout = () => {
   return (
     <div className="admin-layout">
         mobile sidebar
-        <aside className="w-full max-w-[270px] hidden lg:block"></aside>
+        <aside className="w-full max-w-[270px] hidden lg:block">Sidebar</aside>
         <aside className="children"><Outlet/></aside>
     </div>
   )
